@@ -2,9 +2,9 @@
 #include <boost/beast/http.hpp>
 #include <boost/asio/strand.hpp>
 
-#include "listener.h"
-#include "utils.h"
-#include "session.h"
+#include "listener.hpp"
+#include "utils.hpp"
+#include "session.hpp"
 
 listener::listener(net::io_context& ioc, tcp::endpoint endpoint,
         std::shared_ptr<std::string const> const& doc_root)

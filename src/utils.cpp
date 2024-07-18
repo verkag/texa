@@ -1,4 +1,4 @@
-#include "utils.h"
+#include "utils.hpp"
 #include <iostream>
 
 void fail(beast::error_code ec, char const* what)
@@ -50,4 +50,9 @@ std::string path_cat(beast::string_view base, beast::string_view path)
         result.resize(result.size() - 1);
     result.append(path.data(), path.size());
     return result;
+}
+
+int foo(int a)
+{
+    return a + 1;
 }

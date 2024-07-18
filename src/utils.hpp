@@ -119,5 +119,5 @@ http::message_generator handle_request(beast::string_view doc_root, http::reques
     return res;
 }
 
-
+int foo(int a);
 

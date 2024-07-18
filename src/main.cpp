@@ -3,9 +3,9 @@
 #include <vector>
 #include <iostream>
 
-#include "session.h"
-#include "listener.h"
-#include "utils.h"
+#include "session.hpp"
+#include "listener.hpp"
+#include "utils.hpp"
 
 namespace beast = boost::beast;         // from <boost/beast.hpp>
 namespace http = beast::http;           // from <boost/beast/http.hpp>

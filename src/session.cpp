@@ -1,5 +1,5 @@
-#include "session.h"
-#include "utils.h"
+#include "session.hpp"
+#include "utils.hpp"
 
 session::session(tcp::socket&& socket,
         std::shared_ptr<std::string const> const& doc_root)
